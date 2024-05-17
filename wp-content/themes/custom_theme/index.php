@@ -9,7 +9,7 @@
  ?>
 
 
-   <div class="content">CONTENT</div>
+   <div class="content">Content is here</div>
 
 <?php
 get_footer();

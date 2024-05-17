@@ -6,6 +6,7 @@
  */
 
 ?>
+<!DOCTYPE html>
  <html lang="<?php language_attributes(); ?>">
  <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>">
@@ -13,5 +14,6 @@
     <title>Wordpress custom_theme</title>
     <?php wp_head();?>
  </head>
- <body>
+ <body <?php body_class(); ?> >
+   <?php wp_body_open(); ?>
    <header>Header</header>
